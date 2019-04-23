@@ -1,0 +1,31 @@
+{
+  "name": "mycalendar",
+  "version": "1.0.0",
+  "description": "my personal calendar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "NODE_ENV=test mocha tests -t 10000 --exit"
+  },
+  "author": "Donny Ostrianto",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^7.0.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.2",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.1.4"
+  }
+}
